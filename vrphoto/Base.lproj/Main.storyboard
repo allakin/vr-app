@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="b1m-FM-Rld">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="wai-l5-Q4j">
+            <objects>
+                <collectionViewController id="b1m-FM-Rld" customClass="ViewController" customModule="vrphoto" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="dJJ-rj-SFp">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.41189310817449559" green="0.47809636780104714" blue="0.43265052223848505" alpha="1" colorSpace="calibratedRGB"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ePA-ig-S5B">
+                            <size key="itemSize" width="80" height="80"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="30" minY="100" maxX="30" maxY="30"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="tnS-H3-01b" customClass="CollectionViewCell" customModule="vrphoto" customModuleProvider="target">
+                                <rect key="frame" x="30" y="100" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wjn-7b-kbY">
+                                            <rect key="frame" x="19" y="29" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zbg-Ek-BxI">
+                                            <rect key="frame" x="-2" y="16" width="84" height="48"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                            <state key="normal" title="CLICK"/>
+                                            <connections>
+                                                <action selector="tapImagePhotoLibrary:" destination="tnS-H3-01b" eventType="touchUpInside" id="pau-m0-XeP"/>
+                                            </connections>
+                                        </button>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LwA-ul-uPt">
+                                            <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="LwA-ul-uPt" firstAttribute="centerY" secondItem="Wjn-7b-kbY" secondAttribute="centerY" id="79x-8a-97m"/>
+                                    <constraint firstItem="LwA-ul-uPt" firstAttribute="centerX" secondItem="Wjn-7b-kbY" secondAttribute="centerX" id="Age-yG-bC3"/>
+                                    <constraint firstItem="Zbg-Ek-BxI" firstAttribute="centerX" secondItem="tnS-H3-01b" secondAttribute="centerX" id="Q3a-KF-x2y"/>
+                                    <constraint firstItem="Wjn-7b-kbY" firstAttribute="top" secondItem="tnS-H3-01b" secondAttribute="topMargin" constant="21" id="VM0-To-WBc"/>
+                                    <constraint firstItem="Wjn-7b-kbY" firstAttribute="centerX" secondItem="tnS-H3-01b" secondAttribute="centerX" id="ZfR-Vj-m15"/>
+                                    <constraint firstItem="Zbg-Ek-BxI" firstAttribute="centerY" secondItem="tnS-H3-01b" secondAttribute="centerY" id="cSS-tX-JKl"/>
+                                    <constraint firstItem="LwA-ul-uPt" firstAttribute="top" secondItem="tnS-H3-01b" secondAttribute="top" id="ojs-3W-N8c"/>
+                                    <constraint firstItem="LwA-ul-uPt" firstAttribute="leading" secondItem="tnS-H3-01b" secondAttribute="leading" id="sF8-KB-ZjN"/>
+                                    <constraint firstItem="Wjn-7b-kbY" firstAttribute="centerY" secondItem="tnS-H3-01b" secondAttribute="centerY" id="wEa-d4-pFe"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="ImageView" destination="LwA-ul-uPt" id="fay-Be-Oe9"/>
+                                    <outlet property="label" destination="Wjn-7b-kbY" id="awT-TL-BdS"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="b1m-FM-Rld" id="BQi-4n-vPV"/>
+                            <outlet property="delegate" destination="b1m-FM-Rld" id="J2m-tP-6G3"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cod-r1-ysL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="88" y="-162"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		639246291D493F060060BA95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639246281D493F060060BA95 /* AppDelegate.swift */; };
+		6392462B1D493F060060BA95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6392462A1D493F060060BA95 /* ViewController.swift */; };
+		6392462E1D493F060060BA95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6392462C1D493F060060BA95 /* Main.storyboard */; };
+		639246311D493F060060BA95 /* vrphoto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6392462F1D493F060060BA95 /* vrphoto.xcdatamodeld */; };
+		639246331D493F060060BA95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 639246321D493F060060BA95 /* Assets.xcassets */; };
+		639246361D493F060060BA95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639246341D493F060060BA95 /* LaunchScreen.storyboard */; };
+		639246411D493F060060BA95 /* vrphotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639246401D493F060060BA95 /* vrphotoTests.swift */; };
+		6392464C1D493F060060BA95 /* vrphotoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6392464B1D493F060060BA95 /* vrphotoUITests.swift */; };
+		6392465E1D4CB29E0060BA95 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6392465D1D4CB29E0060BA95 /* CollectionViewCell.swift */; };
+		639246611D4D02DA0060BA95 /* VRphoto58.png in Resources */ = {isa = PBXBuildFile; fileRef = 639246601D4D02DA0060BA95 /* VRphoto58.png */; };
+		639246631D4D03A20060BA95 /* VRphoto87.png in Resources */ = {isa = PBXBuildFile; fileRef = 639246621D4D03A20060BA95 /* VRphoto87.png */; };
+		639246671D4D044E0060BA95 /* VRphoto80.png in Resources */ = {isa = PBXBuildFile; fileRef = 639246641D4D044E0060BA95 /* VRphoto80.png */; };
+		639246681D4D044E0060BA95 /* VRphoto120.png in Resources */ = {isa = PBXBuildFile; fileRef = 639246651D4D044E0060BA95 /* VRphoto120.png */; };
+		639246691D4D044E0060BA95 /* VRphoto180.png in Resources */ = {isa = PBXBuildFile; fileRef = 639246661D4D044E0060BA95 /* VRphoto180.png */; };
+		6392466C1D4D05160060BA95 /* VRphoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 6392466B1D4D05160060BA95 /* VRphoto.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6392463D1D493F060060BA95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6392461D1D493F060060BA95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 639246241D493F060060BA95;
+			remoteInfo = vrphoto;
+		};
+		639246481D493F060060BA95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6392461D1D493F060060BA95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 639246241D493F060060BA95;
+			remoteInfo = vrphoto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		639246251D493F060060BA95 /* vrphoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vrphoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		639246281D493F060060BA95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6392462A1D493F060060BA95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6392462D1D493F060060BA95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		639246301D493F060060BA95 /* vrphoto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = vrphoto.xcdatamodel; sourceTree = "<group>"; };
+		639246321D493F060060BA95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		639246351D493F060060BA95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		639246371D493F060060BA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6392463C1D493F060060BA95 /* vrphotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vrphotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		639246401D493F060060BA95 /* vrphotoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vrphotoTests.swift; sourceTree = "<group>"; };
+		639246421D493F060060BA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		639246471D493F060060BA95 /* vrphotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vrphotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6392464B1D493F060060BA95 /* vrphotoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vrphotoUITests.swift; sourceTree = "<group>"; };
+		6392464D1D493F060060BA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6392465D1D4CB29E0060BA95 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		639246601D4D02DA0060BA95 /* VRphoto58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VRphoto58.png; sourceTree = "<group>"; };
+		639246621D4D03A20060BA95 /* VRphoto87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VRphoto87.png; sourceTree = "<group>"; };
+		639246641D4D044E0060BA95 /* VRphoto80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VRphoto80.png; sourceTree = "<group>"; };
+		639246651D4D044E0060BA95 /* VRphoto120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VRphoto120.png; sourceTree = "<group>"; };
+		639246661D4D044E0060BA95 /* VRphoto180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VRphoto180.png; sourceTree = "<group>"; };
+		6392466B1D4D05160060BA95 /* VRphoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VRphoto.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		639246221D493F060060BA95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639246391D493F060060BA95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639246441D493F060060BA95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6392461C1D493F060060BA95 = {
+			isa = PBXGroup;
+			children = (
+				639246271D493F060060BA95 /* vrphoto */,
+				6392463F1D493F060060BA95 /* vrphotoTests */,
+				6392464A1D493F060060BA95 /* vrphotoUITests */,
+				639246261D493F060060BA95 /* Products */,
+				6392466A1D4D04F00060BA95 /* Image */,
+				6392465F1D4D01960060BA95 /* Icon */,
+			);
+			sourceTree = "<group>";
+		};
+		639246261D493F060060BA95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				639246251D493F060060BA95 /* vrphoto.app */,
+				6392463C1D493F060060BA95 /* vrphotoTests.xctest */,
+				639246471D493F060060BA95 /* vrphotoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		639246271D493F060060BA95 /* vrphoto */ = {
+			isa = PBXGroup;
+			children = (
+				639246281D493F060060BA95 /* AppDelegate.swift */,
+				6392462A1D493F060060BA95 /* ViewController.swift */,
+				6392465D1D4CB29E0060BA95 /* CollectionViewCell.swift */,
+				6392462C1D493F060060BA95 /* Main.storyboard */,
+				639246321D493F060060BA95 /* Assets.xcassets */,
+				639246341D493F060060BA95 /* LaunchScreen.storyboard */,
+				639246371D493F060060BA95 /* Info.plist */,
+				6392462F1D493F060060BA95 /* vrphoto.xcdatamodeld */,
+			);
+			path = vrphoto;
+			sourceTree = "<group>";
+		};
+		6392463F1D493F060060BA95 /* vrphotoTests */ = {
+			isa = PBXGroup;
+			children = (
+				639246401D493F060060BA95 /* vrphotoTests.swift */,
+				639246421D493F060060BA95 /* Info.plist */,
+			);
+			path = vrphotoTests;
+			sourceTree = "<group>";
+		};
+		6392464A1D493F060060BA95 /* vrphotoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6392464B1D493F060060BA95 /* vrphotoUITests.swift */,
+				6392464D1D493F060060BA95 /* Info.plist */,
+			);
+			path = vrphotoUITests;
+			sourceTree = "<group>";
+		};
+		6392465F1D4D01960060BA95 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				639246601D4D02DA0060BA95 /* VRphoto58.png */,
+				639246641D4D044E0060BA95 /* VRphoto80.png */,
+				639246621D4D03A20060BA95 /* VRphoto87.png */,
+				639246651D4D044E0060BA95 /* VRphoto120.png */,
+				639246661D4D044E0060BA95 /* VRphoto180.png */,
+			);
+			name = Icon;
+			path = vrphoto;
+			sourceTree = "<group>";
+		};
+		6392466A1D4D04F00060BA95 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				6392466B1D4D05160060BA95 /* VRphoto.png */,
+			);
+			name = Image;
+			path = vrphoto;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		639246241D493F060060BA95 /* vrphoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639246501D493F060060BA95 /* Build configuration list for PBXNativeTarget "vrphoto" */;
+			buildPhases = (
+				639246211D493F060060BA95 /* Sources */,
+				639246221D493F060060BA95 /* Frameworks */,
+				639246231D493F060060BA95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vrphoto;
+			productName = vrphoto;
+			productReference = 639246251D493F060060BA95 /* vrphoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6392463B1D493F060060BA95 /* vrphotoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639246531D493F060060BA95 /* Build configuration list for PBXNativeTarget "vrphotoTests" */;
+			buildPhases = (
+				639246381D493F060060BA95 /* Sources */,
+				639246391D493F060060BA95 /* Frameworks */,
+				6392463A1D493F060060BA95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6392463E1D493F060060BA95 /* PBXTargetDependency */,
+			);
+			name = vrphotoTests;
+			productName = vrphotoTests;
+			productReference = 6392463C1D493F060060BA95 /* vrphotoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		639246461D493F060060BA95 /* vrphotoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639246561D493F060060BA95 /* Build configuration list for PBXNativeTarget "vrphotoUITests" */;
+			buildPhases = (
+				639246431D493F060060BA95 /* Sources */,
+				639246441D493F060060BA95 /* Frameworks */,
+				639246451D493F060060BA95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				639246491D493F060060BA95 /* PBXTargetDependency */,
+			);
+			name = vrphotoUITests;
+			productName = vrphotoUITests;
+			productReference = 639246471D493F060060BA95 /* vrphotoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6392461D1D493F060060BA95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = iosDevelopClub;
+				TargetAttributes = {
+					639246241D493F060060BA95 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					6392463B1D493F060060BA95 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 639246241D493F060060BA95;
+					};
+					639246461D493F060060BA95 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 639246241D493F060060BA95;
+					};
+				};
+			};
+			buildConfigurationList = 639246201D493F060060BA95 /* Build configuration list for PBXProject "vrphoto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6392461C1D493F060060BA95;
+			productRefGroup = 639246261D493F060060BA95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				639246241D493F060060BA95 /* vrphoto */,
+				6392463B1D493F060060BA95 /* vrphotoTests */,
+				639246461D493F060060BA95 /* vrphotoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		639246231D493F060060BA95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639246361D493F060060BA95 /* LaunchScreen.storyboard in Resources */,
+				639246331D493F060060BA95 /* Assets.xcassets in Resources */,
+				639246671D4D044E0060BA95 /* VRphoto80.png in Resources */,
+				6392462E1D493F060060BA95 /* Main.storyboard in Resources */,
+				639246691D4D044E0060BA95 /* VRphoto180.png in Resources */,
+				6392466C1D4D05160060BA95 /* VRphoto.png in Resources */,
+				639246631D4D03A20060BA95 /* VRphoto87.png in Resources */,
+				639246681D4D044E0060BA95 /* VRphoto120.png in Resources */,
+				639246611D4D02DA0060BA95 /* VRphoto58.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6392463A1D493F060060BA95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639246451D493F060060BA95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		639246211D493F060060BA95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6392462B1D493F060060BA95 /* ViewController.swift in Sources */,
+				639246311D493F060060BA95 /* vrphoto.xcdatamodeld in Sources */,
+				6392465E1D4CB29E0060BA95 /* CollectionViewCell.swift in Sources */,
+				639246291D493F060060BA95 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639246381D493F060060BA95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639246411D493F060060BA95 /* vrphotoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639246431D493F060060BA95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6392464C1D493F060060BA95 /* vrphotoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6392463E1D493F060060BA95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 639246241D493F060060BA95 /* vrphoto */;
+			targetProxy = 6392463D1D493F060060BA95 /* PBXContainerItemProxy */;
+		};
+		639246491D493F060060BA95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 639246241D493F060060BA95 /* vrphoto */;
+			targetProxy = 639246481D493F060060BA95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6392462C1D493F060060BA95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6392462D1D493F060060BA95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		639246341D493F060060BA95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				639246351D493F060060BA95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6392464E1D493F060060BA95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6392464F1D493F060060BA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		639246511D493F060060BA95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = vrphoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "David-Kakaladze.vrphoto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		639246521D493F060060BA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = vrphoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "David-Kakaladze.vrphoto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		639246541D493F060060BA95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = vrphotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "David-Kakaladze.vrphotoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vrphoto.app/vrphoto";
+			};
+			name = Debug;
+		};
+		639246551D493F060060BA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = vrphotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "David-Kakaladze.vrphotoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vrphoto.app/vrphoto";
+			};
+			name = Release;
+		};
+		639246571D493F060060BA95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = vrphotoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "David-Kakaladze.vrphotoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = vrphoto;
+			};
+			name = Debug;
+		};
+		639246581D493F060060BA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = vrphotoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "David-Kakaladze.vrphotoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = vrphoto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		639246201D493F060060BA95 /* Build configuration list for PBXProject "vrphoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6392464E1D493F060060BA95 /* Debug */,
+				6392464F1D493F060060BA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		639246501D493F060060BA95 /* Build configuration list for PBXNativeTarget "vrphoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639246511D493F060060BA95 /* Debug */,
+				639246521D493F060060BA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		639246531D493F060060BA95 /* Build configuration list for PBXNativeTarget "vrphotoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639246541D493F060060BA95 /* Debug */,
+				639246551D493F060060BA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		639246561D493F060060BA95 /* Build configuration list for PBXNativeTarget "vrphotoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639246571D493F060060BA95 /* Debug */,
+				639246581D493F060060BA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6392462F1D493F060060BA95 /* vrphoto.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				639246301D493F060060BA95 /* vrphoto.xcdatamodel */,
+			);
+			currentVersion = 639246301D493F060060BA95 /* vrphoto.xcdatamodel */;
+			path = vrphoto.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6392461D1D493F060060BA95 /* Project object */;
+}
